@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ongkon's Creation</title>
+    <link rel="stylesheet" href="no2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="no2.css">
+    <link rel="stylesheet" href="style.css">
+    <body>
+    <!-----navber section---->
+<nav class="navbar">
+<div class="navbar_container">
+<!--<a href="home" id="navbar_logo">ONGKON CREATION</a>--->
+<div class="navbar_toggle" id="mobile-menu">
+ <span class="bar"></span>
+ <span class="bar"></span>
+<span class="bar"></span>
+</div>
+<ul class="navbar_menu">
+
+  <li class="navbar_item">
+<a href="index.html" class="navbar_links" id="home-page">Home</a>
+  </li>
+  <li class="navbar_item">
+    <a href="#about" class="navbar_links" id="home-page">About</a>
+  </li>
+    <li class="navbar_item">
+      <a href="#services" class="navbar_links" id="services-page">Services</a>
+    </li>
+      <li class="navbar_btn">
+        <a href="signup.html" class="button" id="signup">Sign Up</a>
+      </li>
+      </ul>
+      </div>
+  </nav>
+      <!----- account-page ----->
+   <div class="account-page">
+     <div class="container">
+       <div class="row">
+         <div class="col-2">
+           <img src="log.jpg" width="100%">
+         </div>
+          
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Register</span>
+              <hr id="Indicator">
+                 </div>
+              
+              <form id="LoginForm">
+ <input type="text" Placeholder="Username">
+ <input type="password" placeholder="Password">
+ <button type="submit" class="btn">Log In</button>
+ <a href="">forgot password</a>
+ </form>
+ 
+ <form id="RegForm">
+    <input type="text" Placeholder="Username">
+    <input type="email" Placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button type="submit" class="btn">Register</button>
+ </form>
+ 
+
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+    
+  
+  
+      <script src="app.js"></script>
+        
+     
+  </body>
+  </head>
+  </html>
